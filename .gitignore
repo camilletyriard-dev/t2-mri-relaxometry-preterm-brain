@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (NIfTI volumes not tracked — see data/README.md)
+data/data_adolescent/
+data/data_adult_control/
+data/nifti/
+data/*.nii
+data/*.nii.gz
+data/*.csv
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Environments
+venv/
+.env/
